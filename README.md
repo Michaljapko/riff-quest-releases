@@ -1,16 +1,19 @@
 # riff.quest Desktop App
 
-**Windows desktop app for [riff.quest](https://riff.quest)** — the free guitar practice tracker with native low-latency audio, real-time pitch detection, and structured practice plans. This repository hosts the **desktop app releases** (installer downloads + auto-update feed) for Windows.
+**Desktop app for [riff.quest](https://riff.quest)** — the free guitar practice tracker with native low-latency audio, real-time pitch detection, and structured practice plans. This repository hosts the **desktop app releases** (installer downloads + auto-update feed) for Windows and Linux.
 
 [![Latest release](https://img.shields.io/github/v/release/Michaljapko/riff-quest-releases?label=latest%20version&color=06b6d4)](https://github.com/Michaljapko/riff-quest-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Michaljapko/riff-quest-releases/total?label=downloads&color=06b6d4)](https://github.com/Michaljapko/riff-quest-releases/releases)
-[![Platform](https://img.shields.io/badge/platform-Windows-06b6d4)](https://github.com/Michaljapko/riff-quest-releases/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux-06b6d4)](https://github.com/Michaljapko/riff-quest-releases/releases/latest)
 
 ## Download
 
-**[⬇ Download the latest installer](https://github.com/Michaljapko/riff-quest-releases/releases/latest)** (Windows, `.exe`)
+Grab the installer for your OS from the [latest release](https://github.com/Michaljapko/riff-quest-releases/releases/latest):
 
-The app auto-updates in the background, so you only need to install it once.
+- 🪟 **Windows** — `riff.quest-Setup-<version>.exe`
+- 🐧 **Linux** — `riff.quest-<version>.AppImage` (make it executable, then run: `chmod +x riff.quest-*.AppImage`)
+
+Ignore `latest.yml` / `latest-linux.yml` in the assets — those are auto-update feed files, not installers. The app auto-updates in the background, so you only need to install it once.
 
 ## What is riff.quest?
 
@@ -40,7 +43,7 @@ No — it's the same riff.quest app in a native shell, with added native audio s
 This repository hosts release binaries only — riff.quest's source isn't open source. For bugs or feature requests, use the links below.
 
 **What platforms are supported?**
-Windows today, with Linux (AppImage) support on the way. macOS support is being evaluated.
+Windows and Linux (AppImage). macOS support is being evaluated.
 
 ## Support & community
 
