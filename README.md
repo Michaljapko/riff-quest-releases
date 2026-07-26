@@ -40,7 +40,7 @@ No — it's the same riff.quest app in a native shell, with added native audio s
 This repository hosts release binaries only — riff.quest's source isn't open source. For bugs or feature requests, use the links below.
 
 **What platforms are supported?**
-Windows today. macOS and Linux support are being evaluated.
+Windows today, with Linux (AppImage) support on the way. macOS support is being evaluated.
 
 ## Support & community
 
